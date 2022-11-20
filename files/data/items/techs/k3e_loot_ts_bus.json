@@ -1,0 +1,14 @@
+{
+    "Name": "Salvaged Bus",
+    "Desc": "You found a relatively intact bus while exploring the area.",
+    "Tags": [ "NeverTrade", "Rare" ],
+    "Category": "Tech",
+    "Weight": 0.0,
+    "Value": 20,
+    "AvailableOnStartMenu": false,
+    "InventoryTextureName": "techs/vehicle_bus",
+    "CarUnlock": [ "car_bus" ],
+    "BaseResearchTime": 500,
+    "RequiredTechs": [ "void" ],
+    "RequiredItems": []
+}

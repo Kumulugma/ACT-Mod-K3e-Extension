@@ -1,0 +1,23 @@
+{
+  "Name": "Hop seeds",
+  "Desc": "Hops are used in beer production exclusively",
+  "Category": "Crops",
+  "Tags": [ "Crops", "Agriculture" ],
+  "Weight": 0.01,
+  "Value": 5,
+  "InventoryTextureName": "objects/materials/seed_hops",
+  "CropYoung": "objects/plant.hop",
+  "CropFull": "objects/plant.hop",
+  "MinSoilQuality": 25,
+  "DaysToGrow": 3,
+  "MinYield": 1,
+  "MaxYield": 2,
+  "Health": 115,
+  "WaterConsumptionPerHour": 0.03,
+  "GrowLocation": "Any",
+  "NeedLightByDay": true,
+  "NeedLightByNight": false,
+  "PestResistance": 0.8,
+  "Output": "ing_hops",
+  "OutputType": "FoodIngredients"
+}

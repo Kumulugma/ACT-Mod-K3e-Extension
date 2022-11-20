@@ -1,0 +1,10 @@
+{
+  "Name": "Water turbine",
+  "Desc": "Generates electricity, must be placed near water",
+  "Tags": [ "Tools" ],
+  "Category": "Clutter",
+  "Weight": 10.0,
+  "Value": 1500,
+  "AvailableOnStartMenu": false,
+  "InventoryTextureName": "objects/waterturbine"
+}

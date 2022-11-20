@@ -1,0 +1,65 @@
+{
+  "Name": "Cave",
+  "Desc": "Quite a deep cave.",
+  "TexturePath": "map/locations/cave",
+  "Generator": "BattleMap",
+  "SpecialNoSpawn": false,
+  "MinProductionTeamNeeded": 3,
+  "CanExplore": true,
+  "SpawnLocation": "Outside",
+  "SpawnRoadRequired": false,
+  "Mobs": [
+    {
+      "Item1": "tribal",
+      "Item2": 45
+    }
+  ],
+  "Production": [
+    {
+      "Category": "FoodIngredients",
+      "Item": "ing_shroom",
+      "Count": 25
+    }
+  ],
+  "AveragePerMap": 5,
+  "Difficulty": 0.5,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedType": [ "Crops" ],
+      "DenyTag": [ "Rare" ],
+      "MinCount": 10,
+      "MaxCount": 15,
+      "Weight": 3
+    },
+    {
+      "WantedType": [ "Material" ],
+      "WantedTag": [ "Resource", "Vegetal" ],
+      "DenyTag": [ "Rare" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 5,
+      "MaxCount": 15
+    },
+    {
+      "WantedType": [ "Food" ],
+      "WantedTag": [ "Fodder" ],
+      "MinCount": 20,
+      "MaxCount": 30
+    },
+    {
+      "WantedType": [ "FoodIngredients" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15
+    },
+    {
+      "WantedType": [ "Agent" ],
+      "WantedTag": [ "Animal", "Agriculture" ],
+      "DenyTag": [ "Rare" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 0,
+      "MaxCount": 2
+    }
+  ]
+
+}

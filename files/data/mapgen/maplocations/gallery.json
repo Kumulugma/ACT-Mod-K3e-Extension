@@ -1,0 +1,126 @@
+{
+  "Name": "Gallery",
+  "Desc": "A remnant of the cultural heritage of mankind.",
+  "TexturePath": "map/locations/gallery",
+  "Generator": "City",
+  "SpecialNoSpawn": false,
+  "SpawnLocation": "CityCenter",
+  "SpawnRoadRequired": true,
+  "Mobs": [
+    {
+      "Item1": "bandit",
+      "Item2": 35
+    },
+    {
+      "Item1": "tribal",
+      "Item2": 20
+    }
+  ],
+  "Production": [
+    {
+      "Item": "art",
+      "Category": "Material",
+      "Count": 1
+    }
+  ],
+  "CanExplore": true,
+  "AveragePerMap": 2,
+  "Difficulty": 2.0,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedType": [
+        "FoodIngredients"
+      ],
+      "WantedTag": [
+        "Processed"
+      ],
+      "MinCount": 8,
+      "MaxCount": 12,
+      "Weight": 2
+    },
+    {
+      "WantedType": [
+        "Material",
+        "Manufactured"
+      ],
+      "WantedTag": [
+        "Technological",
+        "Processed",
+        "Clothing",
+        "Valuable",
+        "Electronics"
+      ],
+      "DenyTag": [
+        "Contaminated"
+      ],
+      "MinCount": 10,
+      "MaxCount": 15,
+      "Weight": 3
+    },
+    {
+      "WantedType": [
+        "Food",
+        "Drink"
+      ],
+      "DenyTag": [
+        "Military"
+      ],
+      "MinCount": 5,
+      "MaxCount": 10,
+      "Weight": 2
+    },
+    {
+      "DenyType": [
+        "Clutter"
+      ],
+      "WantedTag": [
+        "Tools"
+      ],
+      "DenyTag": [
+        "Military"
+      ],
+      "MinCount": 1,
+      "MaxCount": 2
+    },
+    {
+      "WantedType": [
+        "Armor",
+        "Weapon"
+      ],
+      "DenyTag": [
+        "Military"
+      ],
+      "MinCount": 0,
+      "MaxCount": 2
+    },
+    {
+      "WantedName": "loot_ts_pickup",
+      "WantedType": [
+        "Tech"
+      ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [
+        "Travel"
+      ],
+      "DenyTag": [
+        "Military"
+      ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [
+        "Artifact"
+      ],
+      "WantedTag": [
+        "Anomaly"
+      ],
+      "MinCount": 0,
+      "MaxCount": 1
+    }
+  ]
+}

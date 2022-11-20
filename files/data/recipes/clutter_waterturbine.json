@@ -1,0 +1,25 @@
+{
+  "Name": "",
+  "Skill": "Tinkering",
+  "SkillBonus": 15,
+  "Input": [
+    {
+      "Category": 9,
+      "Item": "metal",
+      "Count": 10
+    },
+    {
+      "Category": "Manufactured",
+      "Item": "electronics",
+      "Count": 2
+    }
+  ],
+  "Output": [
+    {
+      "Category": "Clutter",
+      "Item": "clut_waterturbine",
+      "Count": 1
+    }
+  ],
+  "ProductionTime": 30000
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Thyme seeds",
+  "Desc": "Thyme is mostly used to produce herbal medicine",
+  "Category": "Crops",
+  "Tags": [ "Crops", "Medical", "Artisanal" ],
+  "Weight": 0.02,
+  "Value": 8,
+  "InventoryTextureName": "objects/materials/seed_thyme",
+  "CropYoung": "objects/plant.thyme",
+  "CropFull": "objects/plant.thyme",
+  "MinSoilQuality": 10,
+  "DaysToGrow": 3,
+  "MinYield": 1,
+  "MaxYield": 1,
+  "Health": 100,
+  "WaterConsumptionPerHour": 0.025,
+  "GrowLocation": "Any",
+  "NeedLightByDay": true,
+  "NeedLightByNight": false,
+  "PestResistance": 0.8,
+  "Output": "ing_thyme"
+}

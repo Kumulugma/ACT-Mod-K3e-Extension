@@ -1,0 +1,73 @@
+{
+  "SpriteFile": [ "objects/tinkeringstation" ],
+  "SpriteFileDestroyed": "objects/debris1",
+  "AllowRandomRotation": false,
+  "Name": "Tinkering station",
+  "Desc": "A station used to build electronic doodads.",
+  "Category": "Production",
+  "CanBeHit": true,
+  "BlockPath": false,
+  "CanBurn": false,
+  "Integrity": "High",
+  "BlockBullet": true,
+  "DrawnLayer": 3,
+  "BlockLight": false,
+  "UserPosition": "0, 26",
+  "MaxHealth": 500,
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "DropShadow": true,
+  "TTLPostDeath": 5000,
+  "BuildReq": [
+    {
+      "Item": "stone",
+      "Category": "Material",
+      "Count": 4
+    },
+    {
+      "Item": "wood",
+      "Category": "Material",
+      "Count": 5
+    },
+    {
+      "Item": "electronics",
+      "Category": "Manufactured",
+      "Count": 2
+    }
+  ],
+  "BuildTimeRequired": 15000,
+  "RepairWith": "electronics",
+  "ShowInBuildMenu": true,
+  "InventorySpace": 500,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "TechRequirement": "power",
+  "BuildSFX": [ "hammer_nails", "hammer_metal" ],
+  "WorkSfx": [ "hammer_nails", "hammer_small" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "Factory": {
+    "Automated": false,
+    "DrawRecipe": true,
+    "DrawRecipePos": "0, -34",
+    "Disabled": false,
+    "RecipeList": [
+      "craft_turretparts",
+      "clutter_coalgenerator",
+      "clutter_solarpanel",
+      "clutter_fuelgenerator",
+      "clutter_smallbattery",
+      "clutter_largebattery",
+      "clutter_powerrelay",
+      "clutter_waterturbine",
+      "craft_collarpack",
+      "drone_smg",
+      "drone_tesla",
+      "craft_drill",
+      "clutter_waterturbine"
+    ],
+    "WorkSfx": [ "work_motor" ]
+  }
+}

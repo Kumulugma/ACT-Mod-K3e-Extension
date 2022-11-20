@@ -1,0 +1,65 @@
+{
+  "SpriteFile": [ "objects/electrickitchen" ],
+  "SpriteFileDestroyed": "objects/debris1",
+  "AllowRandomRotation": false,
+  "Name": "Electric kitchen",
+  "Desc": "Cook more food faster.",
+  "Category": "Production",
+  "CanBeHit": true,
+  "BlockPath": false,
+  "BlockBullet": true,
+  "DrawnLayer": 3,
+  "CanBurn": true,
+  "BlockLight": false,
+  "UserPosition": "32,32",
+  "MaxHealth": 500,
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "DropShadow": true,
+  "TTLPostDeath": 60000,
+  "BuildReq": [
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 4
+    },
+    {
+      "Item": "ceramic",
+      "Category": "Material",
+      "Count": 5
+    },
+    {
+      "Item": "electronics",
+      "Category": "Manufactured",
+      "Count": 4
+    }
+  ],
+  "ShowInBuildMenu": true,
+  "RepairWith": "ceramic",
+  "PowerRequirement": 250,
+  "BuildTimeRequired": 30000,
+  "InventorySpace": 500,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 30000,
+  "TechRequirement": "appliances",
+  "BuildSFX": [ "hammer_nails", "hammer_metal" ],
+  "WorkSfx": [ "hammer_nails", "hammer_metal" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "Factory": {
+    "Automated": true,
+    "DrawRecipe": true,
+    "DrawRecipePos": "32, -34",
+    "RemoveItemsFromRecipe": [
+      {
+        "Category": "Fuel",
+        "Item": "coal"
+      }
+    ],
+    "Disabled": false,
+    "RecipeList": [ "meal_basic", "meal_cooked", "meal_steak", "meal_potatoes", "meal_rice", "meal_shroom", "meal_tomato", "meal_cheese", "meal_omelette", "meal_wheat", "meal_humansteak", "meal_applepie", "meal_pearpie", "meal_lemonpie", "meal_orangepie", "drink_lemonjuice", "drink_orangejuice" ],
+    "WorkSfx": [ "kitchen1", "kitchen2" ]
+  }
+}

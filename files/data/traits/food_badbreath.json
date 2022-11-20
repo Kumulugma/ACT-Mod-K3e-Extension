@@ -1,0 +1,17 @@
+{
+  "Name": "Food: Delicious but smelly",
+  "Desc": "This one ate something smelly.",
+  "Visible": true,
+  "NotUsedForProcGen": true,
+  "Category": "Trait",
+  "Quality": "Neutral",
+  "MoodModifier": 20,
+  "DurationInHours": 10,
+  "BasePeopleOpinionModifier": -5,
+  "StatsMods": [
+    {
+      "Stat": "Social",
+      "Change": -5
+    }
+  ]
+}

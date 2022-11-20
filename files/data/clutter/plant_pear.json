@@ -1,0 +1,44 @@
+{
+  "SpriteFile": [ "objects/plant.peartree" ],
+  "SpriteFileDestroyed": "objects/wooddoor_broken",
+  "AllowRandomRotation": true,
+  "Name": "Pear tree",
+  "Desc": "A tree you can plant in most temperate biomes and which can be farmed for pears.",
+  "Category": "Tree",
+  "BlockPath": true,
+  "CanBeHit": true,
+  "CanBurn": true,
+  "BlockLight": false,
+  "MaxHealth": 150,
+  "InventorySpace": 500,
+  "BlockBullet": false,
+  "Cover": 0.8,
+  "DrawnLayer": 9,
+  "DropShadow": true,
+  "TTLPostDeath": -1,
+  "BuildReq": [
+    {
+      "Item": "ing_pear",
+      "Category": "FoodIngredients",
+      "Count": 1
+    }
+  ],
+  "Factory": {
+    "Automated": false,
+    "DrawRecipe": true,
+    "DrawRecipePos": "0, 0",
+    "Disabled": false,
+    "CoolDownDuration": "12:00:00",
+    "RecipeList": [ "plant_pear" ]
+  },
+  "ShowInBuildMenu": true,
+  "BuildMenuLocation": "Nature",
+  "PlantData": "pear",
+  "BuildTimeRequired": 15000,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "DisassembleAnimation": "slash",
+  "WorkSfx": [ "woodcut", "build_treesaw" ],
+  "DoneSfx": [ "felltree", "build_treefall" ]
+}

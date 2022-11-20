@@ -1,0 +1,12 @@
+{
+  "Name": "Hops",
+  "Desc": "Hops are flowers used primarily as a flavouring, and stability agent in beer",
+  "Category": "FoodIngredients",
+  "Weight": 0.1,
+  "Tags": [ "Raw", "Vegetal", "Agriculture" ],
+  "Value": 10,
+  "Content": [ "Vegetable" ],
+  "NutritionValue": 0,
+  "AvailableOnStartMenu": false,
+  "InventoryTextureName": "objects/materials/ing_hop"
+}

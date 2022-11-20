@@ -1,0 +1,143 @@
+{
+  "SpriteFile": [ "objects/storage_shelf" ],
+  "SpriteFileDestroyed": "objects/debris0",
+  "AllowRandomRotation": true,
+  "Name": "Shelf storage",
+  "Desc": "Wooden shelf storage. Can store items.",
+  "Category": "Storage",
+  "CanBeHit": true,
+  "BlockPath": true,
+  "CanBurn": true,
+  "BlockLight": false,
+  "BlockBullet": true,
+  "DrawnLayer": 3,
+  "Integrity": "High",
+  "MaxHealth": 1000,
+  "RepairWith": "wood",
+  "BuildSFX": [ "hammer_nails", "hammer_small" ],
+  "WorkSfx": [ "mining" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "ShowInBuildMenu": true,
+  "DropShadow": true,
+  "TTLPostDeath": -1,
+  "BuildReq": [
+    {
+      "Item": "wood",
+      "Category": "Material",
+      "Count": 5
+    }
+  ],
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "BuildTimeRequired": 10000,
+  "InventorySpace": 100,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "TechRequirement": "carpentry",
+  "Depot": {
+    "Enabled": true,
+    "Imports": {
+      "Valuable": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Medical": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Fuel": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Material": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Manufactured": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Food": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Drink": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "FoodIngredients": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Clutter": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Crops": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "DamagedGear": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Travel": {
+        "SelectAll": true,
+        "Individuals": []
+      }
+    },
+    "Exports": {
+      "Valuable": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Medical": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Fuel": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Material": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Manufactured": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Food": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Drink": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "FoodIngredients": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Clutter": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Crops": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "DamagedGear": {
+        "SelectAll": true,
+        "Individuals": []
+      },
+      "Travel": {
+        "SelectAll": true,
+        "Individuals": []
+      }
+    }
+  }
+}

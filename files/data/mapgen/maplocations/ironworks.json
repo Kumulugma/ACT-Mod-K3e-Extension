@@ -1,0 +1,74 @@
+{
+  "Name": "Ironworks",
+  "Desc": "Once upon a time there were huge furnaces burning here.",
+  "TexturePath": "map/locations/ironworks",
+  "Generator": "Forest",
+  "SpawnBuildings": [ "poi_factory", "factory_recycle", "factory_recycle", "rockhouse" ],
+  "SpecialNoSpawn": false,
+  "MinProductionTeamNeeded": 5,
+  "SpawnLocation": "Outer",
+  "CanExplore": true,
+  "Mobs": [
+    {
+      "Item1": "bandit",
+      "Item2": 10
+    },
+    {
+      "Item1": "bandit_heavy",
+      "Item2": 15
+    },
+    {
+      "Item1": "bandit_ranged",
+      "Item2": 5
+    }
+  ],
+  "Production": [
+    {
+      "Category": "Material",
+      "Item": "metal",
+      "Count": 10
+    },
+    {
+      "Category": "Manufactured",
+      "Item": "mat_steel",
+      "Count": 1
+    },
+        {
+      "Category": "Material",
+      "Item": "ceramic",
+      "Count": 5
+    },
+    {
+      "Category": "Material",
+      "Item": "ore_clay",
+      "Count": 1
+    }
+  ],
+  "AveragePerMap": 2,
+  "Difficulty": 1.25,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedTag": [ "Armor", "Tools" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 0,
+      "MaxCount": 2
+    },
+    {
+      "WantedType": [ "Fuel" ],
+      "DenyTag": [ "Mineral" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Manufactured" ],
+      "WantedTag": [ "Resource", "Processed" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 1,
+      "MaxCount": 5,
+      "Weight": 4
+    }
+  ]
+}

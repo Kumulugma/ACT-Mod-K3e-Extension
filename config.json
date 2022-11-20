@@ -1,0 +1,7 @@
+﻿{
+  "name": "K3e Extension",
+  "author": "Kumulugma",
+  "description": "Set of new items.",
+  "version": 1.0,
+  "entryPoint": "k3e-extension.lua"
+}

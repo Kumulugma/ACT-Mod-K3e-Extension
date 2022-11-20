@@ -1,0 +1,20 @@
+{
+  "Name": "Mass burn wood into charcoal",
+  "Skill": "Forging",
+  "SkillBonus": 1,
+  "Input": [
+    {
+      "Category": "Material",
+      "Item": "wood",
+      "Count": 10
+    }
+  ],
+  "Output": [
+    {
+      "Category": "Fuel",
+      "Item": "coal",
+      "Count": 25
+    }
+  ],
+  "ProductionTime": 100000
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Food: Healthy Food",
+  "Desc": "Provide temporary health and sickness regeneration.",
+  "Visible": true,
+  "NotUsedForProcGen": true,
+  "Category": "Trait",
+  "Quality": "Positive",
+  "DurationInHours": 10,
+  "NeedMods": [
+    {
+      "Stat": "Sickness",
+      "Change": -2
+    },
+    {
+      "Stat": "Heal",
+      "Change": 2
+    }
+  ]
+}

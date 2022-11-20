@@ -1,0 +1,55 @@
+{
+  "Name": "Solar farm",
+  "Desc": "Maybe broken, but still with usable materials..",
+  "TexturePath": "map/locations/solar",
+  "Generator": "Forest",
+  "SpawnBuildings": [ "poi_factory", "factory_recycle", "factory_recycle", "rockhouse" ],
+  "SpecialNoSpawn": false,
+  "MinProductionTeamNeeded": 5,
+  "SpawnLocation": "Outer",
+  "CanExplore": true,
+  "Mobs": [
+    {
+      "Item1": "zombie",
+      "Item2": 10
+    },
+    {
+      "Item1": "tribal",
+      "Item2": 15
+    }
+  ],
+  "Production": [
+    {
+      "Category": "Clutter",
+      "Item": "clut_solarpanel",
+      "Count": 1
+    }
+  ],
+  "AveragePerMap": 2,
+  "Difficulty": 1.25,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedTag": [ "Armor", "Tools" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 0,
+      "MaxCount": 2
+    },
+    {
+      "WantedType": [ "Fuel" ],
+      "DenyTag": [ "Mineral" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Manufactured" ],
+      "WantedTag": [ "Resource", "Processed" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 1,
+      "MaxCount": 5,
+      "Weight": 4
+    }
+  ]
+}

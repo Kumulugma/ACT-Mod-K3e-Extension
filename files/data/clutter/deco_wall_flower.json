@@ -1,0 +1,51 @@
+{
+	"SpriteFile": [
+		"objects/wallflower"
+	],
+	"SpriteFileDestroyed": "",
+	"TimeToLive": -1,
+	"AllowRandomRotation": false,
+	"Name": "Wall flower",
+	"Desc": "Living plant to hang on a wall",
+	"Category": "Table",
+	"CanBeHit": true,
+	"BlockPath": false,
+	"CanBurn": true,
+	"BlockLight": false,
+	"BlockBullet": false,
+	"DrawnLayer": 10,
+	"DecorativeValue": 5,
+	"ShowInBuildMenu": true,
+	"DropShadow": false,
+	"Size": {
+		"X": 1,
+		"Y": 1
+	},
+	"MaxHealth": 25,
+	"TTLPostDeath": -1,
+	"CanDisassemble": true,
+	"DisassembleOverrideBuildData": false,
+	"DisassembleTime": 1000,
+	"BuildReq": [
+		{
+			"Item": "wood",
+			"Category": "Material",
+			"Count": 2
+    }, 
+    {
+			"Item": "mat_plantfiber",
+			"Category": "Material",
+			"Count": 1
+		}
+	],
+	"BuildTimeRequired": 1000,
+	"RepairWith": "wood",
+	"PointOfInterest": true,
+	"BuildSFX": [
+		"hammer_nails",
+		"hammer_small"
+	],
+	"DoneSfx": [
+		"furniturebreak"
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "Name": "Food: For a good start to the day",
+  "Desc": "A good meal, a good stat boost",
+  "Visible": true,
+  "NotUsedForProcGen": true,
+  "Category": "Trait",
+  "Quality": "Positive",
+  "MoodModifier": 10,
+  "DurationInHours": 10,
+  "StatsMods": [
+    {
+      "Stat": "Social",
+      "Change": 5
+    },
+    {
+      "Stat": "Ethics",
+      "Change": 10
+    },
+    {
+      "Stat": "Speed",
+      "Change": 15
+    }
+  ]
+}

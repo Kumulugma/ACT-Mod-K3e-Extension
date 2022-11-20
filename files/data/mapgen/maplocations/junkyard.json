@@ -1,0 +1,128 @@
+{
+  "Name": "Junkyard",
+  "Desc": "The industrial zones are moderately dangerous, but you can find manufactured goods.",
+  "TexturePath": "map/locations/junkyard",
+  "Generator": "Forest",
+  "SpawnBuildings": [
+    "poi_factory",
+    "factory_recycle",
+    "factory_recycle",
+    "rockhouse"
+  ],
+  "SpecialNoSpawn": false,
+  "MinProductionTeamNeeded": 3,
+  "SpawnLocation": "Suburbs",
+  "CanExplore": true,
+  "Mobs": [
+    {
+      "Item1": "zombie",
+      "Item2": 20
+    },
+    {
+      "Item1": "tribal",
+      "Item2": 35
+    }
+  ],
+  "Production": [
+    {
+      "Category": "Material",
+      "Item": "metal",
+      "Count": 10
+    },
+    {
+      "Category": "Manufactured",
+      "Item": "electronics",
+      "Count": 7
+    },
+    {
+      "Category": "Clutter",
+      "Item": "clut_batteries",
+      "Count": 1
+    }
+  ],
+  "AveragePerMap": 5,
+  "Difficulty": 1.5,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedTag": [
+        "Armor",
+        "Tools"
+      ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 0,
+      "MaxCount": 2
+    },
+    {
+      "WantedType": [
+        "Fuel"
+      ],
+      "DenyTag": [
+        "Mineral"
+      ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [
+        "Material"
+      ],
+      "WantedTag": [
+        "Mineral"
+      ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 3
+    },
+    {
+      "WantedType": [
+        "Manufactured"
+      ],
+      "WantedTag": [
+        "Resource",
+        "Processed"
+      ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 3
+    },
+    {
+      "WantedType": [
+        "Drink"
+      ],
+      "WantedTag": [
+        "Beverage"
+      ],
+      "MinCount": 2,
+      "MaxCount": 5
+    },
+    {
+      "WantedName": "loot_ts_sports",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedName": "loot_ts_pickup",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedName": "k3e_loot_ts_bus",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedName": "k3e_loot_ts_truck",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    }
+  ]
+}

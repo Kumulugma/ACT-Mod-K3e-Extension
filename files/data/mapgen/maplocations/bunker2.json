@@ -1,0 +1,80 @@
+{
+  "Name": "An open bunker",
+  "Desc": "One of the bunkers that partially survived the collapse.",
+  "TexturePath": "map/locations/bunker2",
+  "Generator": "BattleMap",
+  "SpecialNoSpawn": false,
+  "MinProductionTeamNeeded": 3,
+  "CanExplore": true,
+  "SpawnLocation": "Outside",
+  "SpawnRoadRequired": false,
+  "Mobs": [
+    {
+      "Item1": "solider",
+      "Item2": 50
+    }
+  ],
+  "Production": [
+  ],
+  "AveragePerMap": 7,
+  "Difficulty": 0.5,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedType": [ "Material", "Manufactured" ],
+      "WantedTag": [ "Military", "Damaged" ],
+      "MinCount": 10,
+      "MaxCount": 20,
+      "Weight": 3
+    },
+    {
+      "WantedTag": [ "Damaged" ],
+      "MinCount": 1,
+      "MaxCount": 2,
+      "Weight": 2
+    },
+    {
+      "WantedName": "loot_ts_jeep",
+      "WantedType": [ "Tech" ],
+      "MinCount": 0,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [ "Food", "Drink" ],
+      "WantedTag": [ "Military" ],
+      "MinCount": 10,
+      "MaxCount": 20
+    },
+    {
+      "WantedType": [ "Armor", "Headgear", "Weapon" ],
+      "WantedTag": [ "Military" ],
+      "MinCount": 0,
+      "MaxCount": 2
+    },
+    {
+      "WantedType": [ "Tech" ],
+      "WantedTag": [ "Military" ],
+      "MinCount": 0,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [ "Ammo" ],
+      "DenyTag": [ "Artisanal" ],
+      "MinCount": 15,
+      "MaxCount": 30
+    },
+    {
+      "WantedType": [ "Travel" ],
+      "WantedTag": [ "Military" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [ "Artifact" ],
+      "DenyTag": [ "Anomaly" ],
+      "MinCount": 0,
+      "MaxCount": 1
+    }
+  ]
+
+}

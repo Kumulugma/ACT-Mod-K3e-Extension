@@ -1,0 +1,71 @@
+{
+  "SpriteFile": [
+    "objects/sealdoor"
+  ],
+  "SpriteFileDamaged": "objects/sealdoor_debris",
+  "SpriteFileDestroyed": "objects/sealdoor_broken",
+  "AllowRandomRotation": true,
+  "Name": "Door (seal)",
+  "Desc": "A solid and fire-proof seal door.",
+  "Category": "Door",
+  "CanBeHit": true,
+  "BlockPath": true,
+  "CanBurn": false,
+  "BlockBullet": true,
+  "BlockLight": false,
+  "TechRequirement": "metallurgy",
+  "MaxHealth": 10000,
+  "DrawnLayer": 5,
+  "RepairWith": "metal",
+  "Integrity": "VeryHigh",
+  "TTLPostDeath": 60000,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 30000,
+  "BuildSFX": [
+    "hammer_nails",
+    "hammer_small"
+  ],
+  "DoneSfx": [
+    "furniturebreak"
+  ],
+  "ListEffects": [
+    {
+      "Name": "using",
+      "Category": "Door",
+      "InteractsWith": [
+        "Sentient",
+        "Robotic"
+      ],
+      "ChangeObject": {
+        "FlipBlockPath": true,
+        "FlipBlockLight": false,
+        "FlipBlockBullet": true
+      }
+    }
+  ],
+  "Trigger": {
+    "IsToggle": true,
+    "InitToogle ": true,
+    "ToggledOnSprite": "objects/sealdoor",
+    "ToggledOffSprite": "objects/sealdoor_open",
+    "ValuePerUse": 10,
+    "MaxUsage": 0,
+    "CooldownBetweenUses": 5,
+    "UseOnTopAnimation": "",
+    "CoolDownSprite": ""
+  },
+  "BuildReq": [
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 40
+    }
+  ],
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "ShowInBuildMenu": true,
+  "BuildTimeRequired": 25000
+}

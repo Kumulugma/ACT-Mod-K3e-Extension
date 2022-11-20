@@ -1,0 +1,14 @@
+{
+  "Name": "Collect Lemons",
+  "Skill": "Hauling",
+  "SkillBonus": 1,
+  "Input": [],
+  "Output": [
+    {
+      "Category": "FoodIngredients",
+      "Item": "ing_lemon",
+      "Count": 4
+    }
+  ],
+  "ProductionTime": 12000
+}

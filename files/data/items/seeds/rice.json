@@ -1,0 +1,23 @@
+{
+  "Name": "Rice seeds",
+  "Desc": "Rice produces a lot of filling food but require a lot of water to grow healthy",
+  "Category": "Crops",
+  "Tags": [ "Crops", "Agriculture" ],
+  "Weight": 0.01,
+  "Value": 10,
+  "InventoryTextureName": "objects/materials/seed_rice",
+  "CropYoung": "objects/plant.rice",
+  "CropFull": "objects/plant.rice",
+  "MinSoilQuality": 30,
+  "DaysToGrow": 4,
+  "MinYield": 3,
+  "MaxYield": 5,
+  "Health": 80,
+  "WaterConsumptionPerHour": 0.05,
+  "GrowLocation": "Any",
+  "NeedLightByDay": true,
+  "NeedLightByNight": false,
+  "PestResistance": 0.6,
+  "Output": "ing_rice",
+  "OutputType": "FoodIngredients"
+}

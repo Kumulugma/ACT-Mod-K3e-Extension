@@ -1,0 +1,44 @@
+{
+  "SpriteFile": [ "objects/plant.orangetree" ],
+  "SpriteFileDestroyed": "objects/wooddoor_broken",
+  "AllowRandomRotation": true,
+  "Name": "Orange tree",
+  "Desc": "A tree you can plant in most temperate biomes and which can be farmed for oranges.",
+  "Category": "Tree",
+  "BlockPath": true,
+  "CanBeHit": true,
+  "CanBurn": true,
+  "BlockLight": false,
+  "MaxHealth": 150,
+  "InventorySpace": 500,
+  "BlockBullet": false,
+  "Cover": 0.8,
+  "DrawnLayer": 9,
+  "DropShadow": true,
+  "TTLPostDeath": -1,
+  "BuildReq": [
+    {
+      "Item": "ing_orange",
+      "Category": "FoodIngredients",
+      "Count": 1
+    }
+  ],
+  "Factory": {
+    "Automated": false,
+    "DrawRecipe": true,
+    "DrawRecipePos": "0, 0",
+    "Disabled": false,
+    "CoolDownDuration": "12:00:00",
+    "RecipeList": [ "plant_orange" ]
+  },
+  "ShowInBuildMenu": true,
+  "BuildMenuLocation": "Nature",
+  "PlantData": "orange",
+  "BuildTimeRequired": 15000,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "DisassembleAnimation": "slash",
+  "WorkSfx": [ "woodcut", "build_treesaw" ],
+  "DoneSfx": [ "felltree", "build_treefall" ]
+}

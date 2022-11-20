@@ -1,0 +1,42 @@
+{
+  "SpriteFile": [ "objects/wallpowerrelay" ],
+  "SpriteFileDestroyed": "objects/wooddoor_broken",
+  "AllowRandomRotation": false,
+  "Name": "Wall power relay",
+  "Desc": "Power relays transfer electricity over long distances",
+  "Category": "Power",
+  "CanBeHit": true,
+  "BlockPath": false,
+  "CanBurn": true,
+  "BlockLight": false,
+  "BlockBullet": false,
+  "DrawnLayer": 1,
+  "MaxHealth": 250,
+  "Size": {
+    "X": 1,
+    "Y": 1
+  },
+  "DropShadow": true,
+  "TTLPostDeath": 60000,
+  "BuildReq": [
+    {
+      "Item": "clut_powerrelay",
+      "Category": "Clutter",
+      "Count": 2
+    }
+  ],
+  "BuildTimeRequired": 15000,
+  "InventorySpace": 0,
+  "CanDisassemble": true,
+  "RepairWith": "electronics",
+  "DisassembleOverrideBuildData": false,
+  "ShowInBuildMenu": true,
+  "BuildMenuLocation": "Energy",
+  "DisassembleTime": 10000,
+  "BuildSFX": [ "hammer_metal" ],
+  "WorkSfx": [ "hammer_metal" ],
+  "TechRequirement": "power",
+  "PowerRelay": {
+    "PowerRange": 12
+  }
+}

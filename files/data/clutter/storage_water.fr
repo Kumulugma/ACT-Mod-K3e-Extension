@@ -1,0 +1,4 @@
+{
+  "Name": "Stockage d'oeufs",
+  "Desc": "Zone de stockage pour les oeufs contenant des animaux à faire grandir"
+}

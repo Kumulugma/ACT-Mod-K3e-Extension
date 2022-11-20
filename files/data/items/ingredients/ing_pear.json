@@ -1,0 +1,12 @@
+{
+  "Name": "Pear",
+  "Desc": "There is always time for something good.",
+  "Category": "FoodIngredients",
+  "Tags": [ "Raw", "Vegetal", "Agriculture" ],
+  "Weight": 0.05,
+  "Value": 8,
+  "Content": [ "Fruit" ],
+  "NutritionValue": 105,
+  "AvailableOnStartMenu": false,
+  "InventoryTextureName": "objects/materials/ing_pear"
+}

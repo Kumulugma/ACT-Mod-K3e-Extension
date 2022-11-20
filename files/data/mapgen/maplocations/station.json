@@ -1,0 +1,67 @@
+{
+  "Name": "Railway Station",
+  "Desc": "Remains of the old communication system.",
+  "TexturePath": "map/locations/station",
+  "Generator": "BattleMap",
+  "SpecialNoSpawn": false,
+  "SpawnLocation": "Inner",
+  "CanExplore": true,
+  "Mobs": [
+    {
+      "Item1": "zombie",
+      "Item2": 15
+    },
+    {
+      "Item1": "zombie_fat",
+      "Item2": 5
+    }
+  ],
+  "Production": [
+    {
+      "Category": "Material",
+      "Item": "metal",
+      "Count": 10
+    },
+    {
+      "Category": "Manufactured",
+      "Item": "mat_steel",
+      "Count": 1
+    }
+  ],
+  "AveragePerMap": 5,
+  "Difficulty": 1.5,
+  "LootModifier": 0.8,
+  "ForceHostility": 300,
+  "TechReward": "loot_ts_police",
+  "LootFilters": [
+    {
+      "WantedType": [ "Material", "Manufactured" ],
+      "WantedTag": [ "Military", "Damaged" ],
+      "MinCount": 10,
+      "MaxCount": 20
+    },
+    {
+      "WantedType": [ "Travel" ],
+      "WantedTag": [ "Military" ],
+      "MinCount": 0,
+      "MaxCount": 1
+    },
+    {
+      "WantedTag": [ "Damaged" ],
+      "MinCount": 1,
+      "MaxCount": 2,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Armor", "Headgear", "Weapon" ],
+      "MinCount": 0,
+      "MaxCount": 2
+    },
+    {
+      "WantedType": [ "Ammo" ],
+      "DenyTag": [ "Artisanal" ],
+      "MinCount": 15,
+      "MaxCount": 30
+    }
+  ]
+}

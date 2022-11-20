@@ -1,0 +1,14 @@
+{
+  "Name": "Collect Pears",
+  "Skill": "Hauling",
+  "SkillBonus": 1,
+  "Input": [],
+  "Output": [
+    {
+      "Category": "FoodIngredients",
+      "Item": "ing_pear",
+      "Count": 4
+    }
+  ],
+  "ProductionTime": 8000
+}

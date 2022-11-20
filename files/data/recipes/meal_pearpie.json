@@ -1,0 +1,25 @@
+{
+  "Name": "",
+  "Skill": "Cooking",
+  "SkillBonus": 5,
+  "Input": [
+    {
+      "Category": "FoodIngredients",
+      "Item": "ing_pear",
+      "Count": 2
+    },
+    {
+      "Category": "Fuel",
+      "Item": "coal",
+      "Count": 1
+    }
+  ],
+  "Output": [
+    {
+      "Category": "Food",
+      "Item": "meal_pearpie",
+      "Count": 1
+    }
+  ],
+  "ProductionTime": 10000
+}

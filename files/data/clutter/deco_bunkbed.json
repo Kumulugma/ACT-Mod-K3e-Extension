@@ -1,0 +1,65 @@
+{
+  "SpriteFile": [ "objects/bunkbed" ],
+  "SpriteFileDestroyed": "",
+  "AllowRandomRotation": false,
+  "Name": "Bunk bed",
+  "Desc": "Multiple user bed.",
+  "Category": "Bed",
+  "CanBeHit": true,
+  "BlockPath": true,
+  "DropShadow": true,
+  "CanBurn": true,
+  "BlockBullet": false,
+  "BlockLight": false,
+  "DrawnLayer": 2,
+  "MaxHealth": 50,
+  "UserPosition": "0, 32",
+  "TTLPostDeath": 60000,
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "BuildReq": [
+    {
+      "Item": "fabric",
+      "Category": "Manufactured",
+      "Count": 3
+    },    
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 5
+    }
+  ],
+  "BuildSFX": [ "hammer_nails", "hammer_small" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "BuildTimeRequired": 5000,
+  "RepairWith": "fabric",
+  "ShowInBuildMenu": true,
+  "UpgradableTo": "deco_bed",
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "ListEffects": [
+    {
+      "Name": "sleep",
+      "Category": "Needs",
+      "InteractsWith": [ "Sentient" ],
+      "ChangeNeed": {
+        "Need": "Sleep",
+        "Strength": -5
+      }
+    }
+  ],
+  "InteractiveVerb": "sleeping in",
+  "InteractiveMoodMod": 0,
+  "InteractiveMoodLengthMinutes": 120,
+  "Trigger": {
+    "AllowMultipleUsers": true,
+    "IsToggle": false,
+    "InitToogle ": true,
+    "ValuePerUse": -5,
+    "MaxUsage": 0,
+    "CooldownBetweenUses": 200,
+    "Animation": "Sleep"
+  }
+}

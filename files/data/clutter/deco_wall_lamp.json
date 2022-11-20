@@ -1,0 +1,72 @@
+{
+  "SpriteFile": [ "objects/walllamp" ],
+  "SpriteFileDestroyed": "objects/window_broken",
+  "AllowRandomRotation": false,
+  "Name": "Wall lamp",
+  "Desc": "It provides light (with electricity) and decoration.",
+  "Category": "LightSource",
+  "CanBeHit": true,
+  "BlockPath": false,
+  "CanBurn": false,
+  "PowerRequirement": 10,
+  "DropShadow": true,
+  "BlockLight": false,
+  "BlockBullet": true,
+  "DecorativeValue": 2,
+  "DrawnLayer": 2,
+  "ShowInBuildMenu": true,
+  "MaxHealth": 25,
+  "Size": {
+    "X": 1,
+    "Y": 1
+  },
+  "TechRequirement": "power",
+  "TTLPostDeath": 60000,
+  "LightSource": {
+    "LightRange": 12,
+    "LightColor": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 255
+    },
+    "LightAttenuation": 0.8
+  },
+  "BuildReq": [
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 1
+    },
+    {
+      "Item": "electronics",
+      "Category": "Manufactured",
+      "Count": 1
+    }
+  ],
+  "RepairWith": "electronics",
+  "BuildTimeRequired": 5000,
+  "InteractiveVerb": "toggle",
+  "ListEffects": [
+    {
+      "Name": "toggling light",
+      "Category": "Lamp",
+      "InteractsWith": [ "Sentient" ],
+      "ChangeObject": {
+        "ToggleComponent": "ctLightSource"
+      }
+    }
+  ],
+  "Trigger": {
+    "IsToggle": true,
+    "InitToogle ": true,
+    "ValuePerUse": 10,
+    "MaxUsage": 0,
+    "CooldownBetweenUses": 5
+  },
+  "CanDisassemble": true,
+  "BuildSFX": [ "hammer_nails", "hammer_small" ],
+  "WorkSfx": [ "hammer_nails", "hammer_small" ],
+  "DoneSfx": [ "glassbreak" ],
+  "DisassembleTime": 10000
+}

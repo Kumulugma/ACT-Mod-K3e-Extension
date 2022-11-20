@@ -1,0 +1,4 @@
+{
+  "Name": "Étagère en bois",
+  "Desc": "Espace d'entreposage ordinaire"
+}

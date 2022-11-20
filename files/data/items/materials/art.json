@@ -1,0 +1,27 @@
+{
+	"Name": "Art",
+	"Desc": "Remembrance of cultural achievements",
+	"Category": "Valuable",
+	"Tags": [
+		"Artisanal"
+	],
+	"Weight": 3.0,
+	"Value": 350,
+	"Stackable": true,
+	"AvailableOnStartMenu": false,
+	"CanDrop": true,
+	"DisassembleContent": [
+		{
+			"Category": "Material",
+			"Item": "wood",
+			"Count": 1
+		},
+		{
+			"Category": "Manufactured",
+			"Item": "leather",
+			"Count": 2
+		}
+	],
+	"Tradable": 1,
+	"InventoryTextureName": "objects/materials/art"
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Lemon",
+  "Desc": "To improve immunity.",
+  "Category": "FoodIngredients",
+  "Tags": [ "Raw", "Vegetal", "Agriculture" ],
+  "Weight": 0.05,
+  "Value": 5,
+  "Content": [ "Fruit" ],
+  "NutritionValue": 85,
+  "AvailableOnStartMenu": false,
+  "InventoryTextureName": "objects/materials/ing_lemon"
+}

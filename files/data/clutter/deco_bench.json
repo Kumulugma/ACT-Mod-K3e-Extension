@@ -1,0 +1,41 @@
+{
+  "SpriteFile": [ "objects/bench" ],
+  "SpriteFileDestroyed": "",
+  "AllowRandomRotation": true,
+  "Name": "Bench",
+  "Category": "Seat",
+  "Desc": "A place for your survivors to sit and rest.",
+  "CanBeHit": true,
+  "DropShadow": true,
+  "BlockPath": false,
+  "CanBurn": true,
+  "BlockLight": false,
+  "UserPosition": "0,-1",
+  "MaxHealth": 120,
+  "DecorativeValue": 2,
+  "BlockBullet": false,
+  "DrawnLayer": 2,
+  "Cover": 0.25,
+  "RepairWith": "wood",
+  "ShowInBuildMenu": true,
+  "PointOfInterest": true,
+  "TechRequirement": "carpentry",
+  "TTLPostDeath": -1,
+  "BuildReq": [
+    {
+      "Item": "wood",
+      "Category": "Material",
+      "Count": 2
+    }
+  ],
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "BuildSFX": [ "hammer_nails", "hammer_small" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "BuildTimeRequired": 1500,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000
+}

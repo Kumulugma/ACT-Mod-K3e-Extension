@@ -1,0 +1,55 @@
+{
+  "SpriteFile": [ "objects/storage_water" ],
+  "SpriteFileDestroyed": "objects/debris1",
+  "AllowRandomRotation": true,
+  "Name": "Barrel storage",
+  "Desc": "A large barrel for liquids.",
+  "Category": "Storage",
+  "CanBeHit": true,
+  "BlockPath": true,
+  "CanBurn": true,
+  "BlockLight": false,
+  "BlockBullet": true,
+  "MaxHealth": 110,
+  "ShowInBuildMenu": true,
+  "DropShadow": true,
+  "DrawnLayer": 2,
+  "TTLPostDeath": -1,
+  "TechRequirement": "metallurgy",
+  "RepairWith": "metal",
+  "BuildSFX": [ "hammer_nails", "hammer_small" ],
+  "WorkSfx": [ "hammer_nails", "hammer_small" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "BuildReq": [
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 5
+    }
+  ],
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "BuildTimeRequired": 20000,
+  "InventorySpace": 100,
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "Depot": {
+    "Enabled": true,
+    "RestrictItemTypes": [ "Drink" ],
+    "Imports": {
+      "Drink": {
+        "SelectAll": false,
+        "Individuals": ["drink_dirtywater"]
+      }
+    },
+    "Exports": {
+      "Drink": {
+        "SelectAll": false,
+        "Individuals": ["drink_dirtywater"]
+      }
+    }
+  }
+}

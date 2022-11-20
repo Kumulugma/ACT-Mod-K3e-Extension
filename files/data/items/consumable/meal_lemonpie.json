@@ -1,0 +1,27 @@
+{
+  "InventoryTextureName": "objects/materials/food_lemonpie",
+  "Name": "Lemon pie",
+  "Desc": "Like grandma used to make.",
+  "Category": "Food",
+  "Tags": [ "Food" ],
+  "Weight": 0.25,
+  "Value": 40,
+  "ConsumptionTime": 5500,
+  "UseInZoneForced": true,
+  "NoZoneMoodModifer": -10,
+  "MoodModifierOnCorrectUse": 30,
+  "AvailableOnStartMenu": false,
+  "UseInZones": [ "Eating" ],
+  "AddTraits": [ "food_lemonpie" ],
+  "AddTraitsChance": 1,
+  "Effects": [
+    {
+      "Stat": "Eat",
+      "Change": -400
+    },
+    {
+      "Stat": "Heal",
+      "Change": 11
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Food: Like the old times",
+  "Desc": "They consumed a delicious pie.",
+  "Visible": true,
+  "NotUsedForProcGen": true,
+  "Category": "Trait",
+  "Quality": "Positive",
+  "MoodModifier": 15,
+  "DurationInHours": 12,
+  "StatsMods": [
+    {
+      "Stat": "Social",
+      "Change": 14
+    }
+  ]
+}

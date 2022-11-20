@@ -1,0 +1,22 @@
+{
+  "Name": "Food: Protein-rich diet",
+  "Desc": "A temporary strenght boost",
+  "Visible": true,
+  "NotUsedForProcGen": true,
+  "Category": "Trait",
+  "Quality": "Positive",
+  "MoodModifier": 5,
+  "DurationInHours": 12,
+  "DamageThreshold": 2,
+  "MeleeDamageModifier": 5,
+  "StatsMods": [
+    {
+      "Stat": "Strength",
+      "Change": 15
+    },
+    {
+      "Stat": "Endurance",
+      "Change": 15
+    }
+  ]
+}

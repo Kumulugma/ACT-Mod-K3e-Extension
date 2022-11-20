@@ -1,0 +1,12 @@
+{
+  "Name": "Orange",
+  "Desc": "A little sour, a little sweet.",
+  "Category": "FoodIngredients",
+  "Tags": [ "Raw", "Vegetal", "Agriculture" ],
+  "Weight": 0.05,
+  "Value": 10,
+  "Content": [ "Fruit" ],
+  "NutritionValue": 95,
+  "AvailableOnStartMenu": false,
+  "InventoryTextureName": "objects/materials/ing_orange"
+}

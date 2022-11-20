@@ -1,0 +1,20 @@
+{
+  "Name": "Mechanical method of stone extraction",
+  "Skill": "Forging",
+  "SkillBonus": 1,
+  "Input": [
+    {
+      "Category": "Fuel",
+      "Item": "coal",
+      "Count": 10
+    }
+  ],
+  "Output": [
+    {
+      "Category": "Material",
+      "Item": "stone",
+      "Count": 25
+    }
+  ],
+  "ProductionTime": 100000
+}

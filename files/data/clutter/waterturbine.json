@@ -1,0 +1,55 @@
+{
+	"SpriteFile": [
+		"objects/waterturbine"
+	],
+	"SpriteFileDestroyed": "",
+	"TimeToLive": -1,
+	"AllowRandomRotation": false,
+	"Name": "Water turbine",
+	"Desc": "Produces energy from the movement of water",
+	"Category": "Power",
+	"RestrictionCloseToWater": true,
+	"RestrictionMinDistanceToSimilar": 2,
+	"CanBeHit": true,
+	"BlockPath": true,
+	"CanBurn": false,
+	"BlockLight": false,
+	"BlockBullet": true,
+	"DrawnLayer": 5,
+	"ShowInBuildMenu": true,
+	"DropShadow": true,
+	"Size": {
+		"X": 2,
+		"Y": 2
+	},
+	"MaxHealth": 250,
+	"TTLPostDeath": -1,
+	"CanDisassemble": true,
+	"DisassembleOverrideBuildData": false,
+	"DisassembleTime": 1000,
+	"BuildReq": [
+		{
+		  "Item": "clut_waterturbine",
+		  "Category": "Clutter",
+		  "Count": 1
+		}
+	],
+	"BuildTimeRequired": 4000,
+	"RepairWith": "metal",
+	"Generator": {
+		"Power": 500,
+		"PowerRange": 5,
+		"InputType": "Fuel",
+		"InputDuration": "100",
+		"Input": []
+	},
+	"PointOfInterest": true,
+	"BuildSFX": [
+		"hammer_metal",
+		"hammer_metal"
+	],
+	"DoneSfx": [
+		"furniturebreak"
+	]
+	
+}

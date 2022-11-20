@@ -1,0 +1,20 @@
+{
+  "Name": "Bus",
+  "Desc": "Vehicle for transporting people.",
+  "Category": "Travel",
+  "TravelSlot": "Transport",
+  "Tags": [ "DontDrop", "NeverTrade", "NeverLootDrop" ],
+  "Weight": 0,
+  "Value": 4500,
+  "InventoryTextureName": "objects/materials/travel_car_bus",
+  "TransportTexture": "bodies/body/vehicle_bus",
+  "CarryCapacity": 24,
+  "HP": 350,
+  "CargoSpaceModifier": 350,
+  "SpeedModifier": 120,
+  "AttackModifier": 0,
+  "DefenseModifier": 15,
+  "AvailableOnStartMenu": false,
+  "NoiseModifier": 450,
+  "LootModifier": 0
+}

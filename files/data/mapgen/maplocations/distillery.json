@@ -1,0 +1,73 @@
+{
+  "Name": "Distillery",
+  "Desc": "The fermentation smell is still there.",
+  "TexturePath": "map/locations/distillery",
+  "Generator": "BattleMap",
+  "SpecialNoSpawn": false,
+  "SpawnLocation": "Outside",
+  "CanExplore": true,
+  "Mobs": [
+    {
+      "Item1": "tribal",
+      "Item2": 10
+    }
+  ],
+  "Production": [
+    {
+      "Category": "Drink",
+      "Item": "drink_vodka",
+      "Count": 2
+    },
+    {
+      "Category": "Drink",
+      "Item": "drink_beer",
+      "Count": 2
+    },
+    {
+      "Category": "Drink",
+      "Item": "drink_cider",
+      "Count": 1
+    } ,
+       {
+      "Category": "FoodIngredients",
+      "Item": "ing_alcohol",
+      "Count": 5
+    }
+  ],
+  "AveragePerMap": 3,
+  "Difficulty": 0.75,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    
+    {
+      "WantedType": [ "DamagedGear" ],
+      "WantedTag": [ "Firearms" ],
+      "DenyTag": [ "Rare", "Military" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 0,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [ "Drink" ],
+      "WantedTag": [ "Liquid" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Food" ],
+      "WantedTag": [ "Food" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 30,
+      "MaxCount": 40,
+      "Weight": 5
+    },
+    {
+      "WantedTag": [ "Damaged" ],
+      "MinCount": 1,
+      "MaxCount": 2,
+      "Weight": 2
+    }
+  ]
+}

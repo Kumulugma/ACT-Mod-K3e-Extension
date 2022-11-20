@@ -1,0 +1,20 @@
+{
+  "Name": "Truck",
+  "Desc": "Vehicle for transporting cargo.",
+  "Category": "Travel",
+  "TravelSlot": "Transport",
+  "Tags": [ "DontDrop", "NeverTrade", "NeverLootDrop" ],
+  "Weight": 0,
+  "Value": 4500,
+  "InventoryTextureName": "objects/materials/travel_car_truck",
+  "TransportTexture": "bodies/body/vehicle_truck",
+  "CarryCapacity": 2,
+  "HP": 350,
+  "CargoSpaceModifier": 700,
+  "SpeedModifier": 80,
+  "AttackModifier": 0,
+  "DefenseModifier": 15,
+  "AvailableOnStartMenu": false,
+  "NoiseModifier": 520,
+  "LootModifier": 20
+}

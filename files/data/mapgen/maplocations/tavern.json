@@ -1,0 +1,68 @@
+{
+  "Name": "Tavern",
+  "Desc": "The apocalypse shouldn't get in the way of a good party.",
+  "TexturePath": "map/locations/tavern",
+  "Generator": "BattleMap",
+  "SpecialNoSpawn": false,
+  "CanExplore": true,
+  "SpawnRoadRequired": true,
+  "SpawnLocation": "Inner",
+  "Mobs": [
+    {
+      "Item1": "zombie",
+      "Item2": 10
+    },
+    {
+      "Item1": "tribal",
+      "Item2": 15
+    }
+  ],
+  "Production": [
+    {
+      "Category": "Food",
+      "Item": "meal_cooked",
+      "Count": 10
+    },
+    {
+      "Category": "Food",
+      "Item": "meal_simple",
+      "Count": 20
+    }
+  ],
+  "AveragePerMap": 3,
+  "Difficulty": 0.5,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedType": [ "Drink" ],
+      "WantedTag": [ "Beverage" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Drink" ],
+      "WantedTag": [ "Liquid" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Food" ],
+      "WantedTag": [ "Food" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 2,
+      "MaxCount": 5
+    },
+    {
+      "WantedType": [ "Agent" ],
+      "WantedTag": [ "Animal", "Pet" ],
+      "DenyTag": [ "Rare" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 1,
+      "MaxCount": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "SpriteFile": [ "objects/basickitchen" ],
+  "SpriteFileDestroyed": "objects/debris1",
+  "AllowRandomRotation": false,
+  "Name": "Basic kitchen",
+  "Desc": "A location used to cook various meals.",
+  "Category": "Production",
+  "CanBeHit": true,
+  "BlockPath": false,
+  "BlockBullet": true,
+  "DrawnLayer": 3,
+  "CanBurn": true,
+  "BlockLight": false,
+  "UpgradableTo": "craft_electrickitchen",
+  "UserPosition": "19,17",
+  "MaxHealth": 300,
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "DropShadow": true,
+  "TTLPostDeath": 60000,
+  "BuildReq": [
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 2
+    },
+    {
+      "Item": "wood",
+      "Category": "Material",
+      "Count": 5
+    }
+  ],
+  "ShowInBuildMenu": true,
+  "BuildTimeRequired": 3000,
+  "InventorySpace": 500,
+  "RepairWith": "metal",
+  "CanDisassemble": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "BuildSFX": [ "hammer_nails", "hammer_metal" ],
+  "WorkSfx": [ "hammer_nails", "hammer_metal" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "Factory": {
+    "Automated": false,
+    "DrawRecipe": true,
+    "DrawRecipePos": "-34, -34",
+    "Disabled": false,
+    "RecipeList": [ "meal_basic", "meal_cooked", "meal_steak", "meal_potatoes", "meal_rice", "meal_shroom", "meal_tomato", "meal_cheese", "meal_omelette", "meal_animalfood", "meal_wheat", "meal_humansteak", "meal_applepie", "meal_pearpie", "meal_lemonpie", "meal_orangepie", "drink_orangejuice", "drink_lemonjuice" ],
+    "WorkSfx": [ "kitchen", "kitchen3" ]
+  }
+}

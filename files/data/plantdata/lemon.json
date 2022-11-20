@@ -1,0 +1,96 @@
+{
+  "Name": "Lemon trees",
+  "Desc": "Lemon trees can only grow over grassy terrain.",
+  "CompatibleTiles": [ "deepgrass", "grass", "grass2" ],
+  "ReproductionSpan": "2.00:00:00",
+  "ReproductionChance": 0.20,
+  "ReproductionRange": 4,
+  "ReproductionMaxInRange": 5,
+  "DeleteOnDeath": false,
+  "AllowRoofs": false,
+  "SetStateOnDeath": "Adult",
+  "States": {
+    "Sprout": {
+      "MinScale": 0.5,
+      "MaxScale": 1.0,
+      "Duration": "2.00:00:00",
+      "Fertile": false,
+      "Inventory": [
+        {
+          "Category": "Material",
+          "Item": "mat_plantfiber",
+          "Count": 1
+        }
+      ],
+      "Renderer": "Clutter",
+      "SpriteFile": [ "objects/sprout" ],
+      "DrawnLayer": 1,
+      "DropShadow": false,
+      "DisableFactory": true
+    },
+    "Young": {
+      "MinScale": 0.2,
+      "MaxScale": 0.7,
+      "Duration": "10.00:00:00",
+      "Fertile": false,
+      "Inventory": [
+        {
+          "Item": "wood",
+          "Category": "Material",
+          "Count": 8
+        },
+        {
+          "Category": "Material",
+          "Item": "mat_plantfiber",
+          "Count": 2
+        }
+      ],
+      "Renderer": "Clutter",
+      "SpriteFile": [ "objects/plant.lemontree" ],
+      "DrawnLayer": 9,
+      "DisableFactory": true,
+      "DropShadow": true
+    },
+    "Adult": {
+      "MinScale": 0.7,
+      "MaxScale": 1.0,
+      "Duration": "15.00:00:00",
+      "Fertile": true,
+      "Inventory": [
+        {
+          "Item": "wood",
+          "Category": "Material",
+          "Count": 15
+        },
+        {
+          "Category": "Material",
+          "Item": "mat_plantfiber",
+          "Count": 2
+        }
+      ],
+      "Renderer": "Clutter",
+      "SpriteFile": [ "objects/plant.lemontree_mature" ],
+      "DrawnLayer": 9,
+      "DisableFactory": false,
+      "DropShadow": true
+    },
+    "Old": {
+      "MinScale": 1.0,
+      "MaxScale": 0.7,
+      "Duration": "15.00:00:00",
+      "Fertile": false,
+      "Inventory": [
+        {
+          "Item": "wood",
+          "Category": "Material",
+          "Count": 14
+        }
+      ],
+      "Renderer": "Clutter",
+      "SpriteFile": [ "objects/plant.lemontree" ],
+      "DrawnLayer": 9,
+      "DisableFactory": true,
+      "DropShadow": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "InventoryTextureName": "objects/materials/food_lemonjuice",
+  "Name": "Lemon juice",
+  "Desc": "Fresh juice in a bottle",
+  "Category": "Drink",
+  "Tags": [ "Liquid", "Food" ],
+  "Weight": 1.0,
+  "Value": 35,
+  "ConsumptionTime": 4500,
+  "UseInZoneForced": false,
+  "NoZoneMoodModifer": -5,
+  "MoodModifierOnCorrectUse": 5,
+  "UseInZones": [ "Eating" ],
+  "Effects": [
+    {
+      "Stat": "Drink",
+      "Change": -500
+    }
+  ]
+}

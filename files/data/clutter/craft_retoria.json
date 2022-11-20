@@ -1,0 +1,59 @@
+{
+  "SpriteFile": [ "objects/retoria" ],
+  "SpriteFileDestroyed": "objects/debris1",
+  "AllowRandomRotation": false,
+  "Name": "Retoria",
+  "Desc": "Mass production method for charcoal",
+  "Category": "Utility",
+  "CanBeHit": true,
+  "BlockPath": true,
+  "BlockBullet": false,
+  "CanBurn": false,
+  "DropShadow": true,
+  "BlockLight": false,  
+	"AllowedSceneTypes": [
+		"Outdoor"
+	],
+  "DrawnLayer": 3,
+  "Integrity": "High",
+  "Cover": 0.6,
+  "MaxHealth": 800,
+  "Size": {
+    "X": 2,
+    "Y": 2
+  },
+  "TTLPostDeath": 30000,
+  "BuildReq": [
+    {
+      "Item": "stone",
+      "Category": "Material",
+      "Count": 10
+    },
+    {
+      "Item": "metal",
+      "Category": "Material",
+      "Count": 5
+    }
+  ],
+  "BuildTimeRequired": 25000,
+  "RepairWith": "stone",
+  "InventorySpace": 50,
+  "CanDisassemble": true,
+  "ShowInBuildMenu": true,
+  "DisassembleOverrideBuildData": false,
+  "DisassembleTime": 10000,
+  "BuildSFX": [ "hammer_nails", "mining" ],
+  "WorkSfx": [ "hammer_nails", "mining" ],
+  "DoneSfx": [ "furniturebreak" ],
+  "TechRequirement": "masonry",
+  "SpecialEffect": "Smoke",
+  "SpecialEffectPos": "0, 0",
+  "Factory": {
+    "Automated": true,
+    "AllowInputFromDepot": true,
+    "DrawRecipe": false,
+    "Disabled": false,    
+    "RemoveItemsFromRecipe": [],
+    "RecipeList": [ "woodburning", "retoria" ]
+  }
+}

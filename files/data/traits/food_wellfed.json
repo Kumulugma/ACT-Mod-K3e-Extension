@@ -1,0 +1,32 @@
+{
+  "Name": "Food: Well Fed",
+  "Desc": "They ate a good meal, temporarily boosting their stats.",
+  "Visible": true,
+  "NotUsedForProcGen": true,
+  "Category": "Trait",
+  "Quality": "Positive",
+  "MoodModifier": 10,
+  "DurationInHours": 8,
+  "StatsMods": [
+    {
+      "Stat": "Social",
+      "Change": 5
+    },
+    {
+      "Stat": "Ethics",
+      "Change": 10
+    },
+    {
+      "Stat": "Speed",
+      "Change": 10
+    },
+    {
+      "Stat": "Strength",
+      "Change": 5
+    },
+    {
+      "Stat": "Endurance",
+      "Change": 5
+    }
+  ]
+}

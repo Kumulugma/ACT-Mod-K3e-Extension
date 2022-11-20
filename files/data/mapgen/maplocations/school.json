@@ -1,0 +1,87 @@
+{
+  "Name": "School",
+  "Desc": "Remains of an old old school building.",
+  "TexturePath": "map/locations/school",
+  "Generator": "RoadSide",
+  "SpecialNoSpawn": false,
+  "SpawnLocation": "Suburbs",
+  "SpawnRoadRequired": true,
+  "CanExplore": true,
+  "Mobs": [
+    {
+      "Item1": "tribal",
+      "Item2": 25
+    }
+  ],
+  "Production": [],
+  "AveragePerMap": 3,
+  "Difficulty": 1.75,
+  "LootModifier": 1.0,
+  "LootFilters": [
+    {
+      "WantedType": [ "Manufactured" ],
+      "WantedTag": [ "Clothing", "Damaged", "Electronics" ],
+      "DenyTag": [ "Rare" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 10,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "DamagedGear" ],
+      "WantedTag": [ "Firearms" ],
+      "DenyTag": [ "Rare", "Military" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 0,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [ "Drink" ],
+      "WantedTag": [ "Liquid" ],
+      "SettingWantedTagsAll": false,
+      "MinCount": 5,
+      "MaxCount": 15,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Food" ],
+      "WantedTag": [ "Food" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 10,
+      "MaxCount": 20,
+      "Weight": 2
+    },
+    {
+      "WantedType": [ "Travel" ],
+      "DenyTag": [ "Military" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedName": "loot_ts_sports",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedName": "loot_ts_pickup",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedName": "k3e_loot_ts_bus",
+      "WantedType": [ "Tech" ],
+      "MinCount": 1,
+      "MaxCount": 1
+    },
+    {
+      "WantedType": [ "Agent" ],
+      "WantedTag": [ "Animal", "Pet" ],
+      "DenyTag": [ "Rare" ],
+      "SettingWantedTagsAll": true,
+      "MinCount": 1,
+      "MaxCount": 2
+    }
+  ]
+}
